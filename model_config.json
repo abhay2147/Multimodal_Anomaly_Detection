@@ -1,0 +1,34 @@
+{
+  "n_features": 17,
+  "n_classes": 8,
+  "class_names": [
+    "Analysis",
+    "Backdoors",
+    "DoS",
+    "Exploits",
+    "Fuzzers",
+    "Normal",
+    "Reconnaissance",
+    "Worms"
+  ],
+  "numeric_cols": [
+    "dur",
+    "sbytes",
+    "dbytes",
+    "sttl",
+    "dttl",
+    "sloss",
+    "dloss",
+    "sload",
+    "dload",
+    "spkts",
+    "dpkts"
+  ],
+  "cat_cols": [
+    "proto",
+    "state"
+  ],
+  "max_len": 128,
+  "bert_name": "distilbert-base-uncased",
+  "best_val_f1": 1.0
+}
